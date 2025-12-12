@@ -1,4 +1,6 @@
 $(function() {
+    bt('updateUser', {user_id: 'nvranicar@zetaglobal.com'});
+
     var timestamp = new Date();
 
     var event_json = {
