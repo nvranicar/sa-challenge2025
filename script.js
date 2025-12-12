@@ -1,5 +1,7 @@
 $(function() {
-    bt('updateUser', {'user_id': 'nvranicar@zetaglobal.com'});
+    setTimeout(function() {
+        bt('updateUser', {'user_id': 'nvranicar@zetaglobal.com'});
+    }, 500);
 
     var timestamp = new Date();
 
