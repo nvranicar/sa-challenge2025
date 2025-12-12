@@ -23,7 +23,7 @@ email: nvranicar@zetaglobal.com
 description: >- # this means to ignore newlines until "baseurl:"
   Tech challenge for Zeta Global Solutions Architect role
 baseurl: "/sa-challenge" # the subpath of your site, e.g. /blog
-url: "nvranicar.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "sandbox.nathan.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  jekyll
 
 # Build settings
