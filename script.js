@@ -14,8 +14,7 @@ $(function() {
         bt('track', 'button_clicked', event_json, {onSuccess: function() {
             alert('Event track completed!');
         }, onFailure: function(error) {
-            alert('Event track failed. Error message: ' + error);
-            console.log(error);
+            alert('Event track failed. Error code: ' + error.status);
         }});
     });
 
@@ -29,7 +28,7 @@ $(function() {
         bt('updateUser', user_json, {onSuccess: function() {
             alert('User update completed!');
         }, onFailure: function(error) {
-            alert('User update failed. Error message: ' + error);
+            alert('User update failed. Error code: ' + error.status);
         }});
     });
 });
