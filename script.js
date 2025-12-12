@@ -11,8 +11,10 @@ $(function() {
     }
 
     $('#event_btn').click(function() {
-        bt('track', 'button_clicked', event_json, {onComplete: function() {
+        bt('track', 'button_clicked', event_json, {onSuccess: function() {
             alert('Event track completed!');
+        }, onFailure: function(error) {
+            alert('Event track failed. Error message: ' + error);
         }});
     });
 
@@ -23,8 +25,10 @@ $(function() {
     }
 
     $('#profile_btn').click(function() {
-        bt('updateUser', user_json, {onComplete: function() {
-            alert('Profile update completed!');
+        bt('updateUser', user_json, {onSuccess: function() {
+            alert('User update completed!');
+        }, onFailure: function(error) {
+            alert('User update failed. Error message: ' + error);
         }});
     });
 });
