@@ -15,6 +15,7 @@ $(function() {
             alert('Event track completed!');
         }, onFailure: function(error) {
             alert('Event track failed. Error message: ' + error);
+            console.log(error);
         }});
     });
 
