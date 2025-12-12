@@ -20,8 +20,9 @@ $(function() {
     });
 
     var event_json = {
+        'user_id': 'nvranicar@zetaglobal.com',
         'timestamp': timestamp,
-        'source': "Nathan's SA challenge site"
+        'click_source': "Nathan V SA challenge site"
     }
 
     $('#event_btn').click(function() {
