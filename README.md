@@ -1,1 +1,0 @@
-# sa-challenge2025
